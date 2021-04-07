@@ -1,0 +1,51 @@
+#groceries {
+	font-family: verveine, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2em;
+	text-align: left;
+  	margin: 0 auto;
+	padding: 25px 50px 15px 50px;
+}
+#groceries li {
+	list-style: none;
+    margin: 0 auto;
+	display: flex;
+}
+#groceries li label {
+	width: 90%;
+	padding: 2px 0 0 20px;
+}
+#groceries li label:hover {
+	opacity: 0.6;
+}
+.groceryItemdone label {
+    color: #aaa;
+    text-decoration: line-through;
+}
+.deleteButton {
+	color: #999 !important;
+	background-color: #fafafa;
+	border: 1px solid #ddd;
+	height: 35px;
+	width: 35px;
+	margin: 7px 10px 7px 0;
+	font-size: 0.5em;
+}
+.deleteButton:hover {
+	background-color: #e6e6e6;
+}
+.checkbox {
+    cursor: pointer;
+}
+.checkbox > input {
+    appearance: none;
+}
+#sortButton {
+	margin: 5px auto 25px auto;
+}
+#sortButton {
+	width: 50%;
+	background-color: #777;
+	border: none;
+}

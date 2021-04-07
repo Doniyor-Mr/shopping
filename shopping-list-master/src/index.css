@@ -1,0 +1,19 @@
+body {
+	color: #333;
+	margin: 0 auto;
+  	padding: 0;
+  	font-family: sans-serif;
+	font-size: 1em;
+	text-align: center;
+	background-image: url("./background.jpg");
+	background: url("./background.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+p {
+	margin: 50px auto 0 auto;
+    padding: 0;
+    line-height: 2;
+}
